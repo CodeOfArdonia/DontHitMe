@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/CodeOfArdonia/DontHitMe/issues"
+license = "LGPL-3.0"
+
+[[mods]]
+modId = "dont_hit_me"
+version = "${version}"
+displayName = "Don't hit me!"
+authors = "IAFEnvoy"
+description = '''
+No longer kicked by invalid entity and sniffer.
+'''
+#logoFile = ""
+
+[[dependencies.dont_hit_me]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dont_hit_me]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"

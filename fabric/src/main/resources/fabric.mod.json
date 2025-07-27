@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dont_hit_me",
+  "version": "${version}",
+  "name": "Don't hit me!",
+  "description": "No longer kicked by invalid entity and sniffer.",
+  "authors": [
+    "IAFEnvoy"
+  ],
+  "contact": {
+    "sources": "https://github.com/CodeOfArdonia/DontHitMe"
+  },
+  "license": "LGPL-3.0",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "dont_hit_me.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "~1.20.1"
+  }
+}
